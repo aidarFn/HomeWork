@@ -13,8 +13,9 @@ class SuperHero:
 
     def health(self):
         self.health_points *= 2
+
     def __str__(self):
-        return (f'Прозвище: {self.nickname} \nСуперспособность: {self.superpower}\nЗдоровье: {self.health_points}')
+        return f'Прозвище: {self.nickname}, Суперспособность: {self.superpower}, Здоровье: {self.health_points}'
 
     def __len__(self):
         return len(self.catchphrase)
@@ -26,5 +27,3 @@ hero.name_hero()
 hero.health()
 print(hero)
 print("Длина коронной фразы героя:", len(hero))
-
-
