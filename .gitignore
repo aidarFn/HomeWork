@@ -1,3 +1,7 @@
 githelp.txt
-sdsad
-.idea/
+test.py
+
+.idea
+__pycache__/
+.venv
+.vs
