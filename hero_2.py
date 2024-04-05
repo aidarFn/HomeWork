@@ -69,7 +69,6 @@ air_hero = AirHero('Аанг', 'Аватар',
                    'когда ты убиваешь своего врага, ты сам себя убиваешь...', 50)
 air_hero.name_hero()
 air_hero.health()
-air_hero.true_phrase()
 print(air_hero)
 print("Длина коронной фразы героя:", len(air_hero))
 
@@ -78,7 +77,6 @@ earth_hero = EarthHero('Тоф', 'Слепой бандит', 'Земля',
                        200, 'Хочешь обнять кого-то – обними дерево.', 100)
 earth_hero.name_hero()
 earth_hero.health()
-earth_hero.true_phrase()
 print(earth_hero)
 print("Длина коронной фразы героя:", len(earth_hero))
 
